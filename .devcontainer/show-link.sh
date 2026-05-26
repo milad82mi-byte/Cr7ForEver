@@ -108,7 +108,9 @@ RANDOM_ID=$(shuf -i 1000-9999 -n 1)
 
 NAME="${CHAR}-${RANDOM_ID}"
 
-LINK="vless://${UUID}@94.130.13.19:443?encryption=none&security=tls&sni=${HOST}&type=xhttp&mode=packet-up&path=%2F#${NAME}"
+LINK="vless://${UUID}@20.90.66.7:443?encryption=none&security=tls&sni=${HOST}&type=xhttp&mode=packet-up&path=%2F#${NAME}
+
+vless://${UUID}@20.103.221.187:443?encryption=none&security=tls&sni=${HOST}&type=xhttp&mode=packet-up&path=%2F#${NAME}"
 echo ""
 echo "================================================"
 echo "$LINK"
